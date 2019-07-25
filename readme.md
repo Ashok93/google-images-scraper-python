@@ -1,6 +1,6 @@
 ## Download google images - Python
 
-### Dependancies:
+### Dependencies:
 1. Selinium
 
 ### Steps:
