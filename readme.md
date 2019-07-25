@@ -1,7 +1,7 @@
 ## Download google images - Python
 
 ### Dependencies:
-1. Selinium
+1. Selenium
 
 ### Steps:
 1. Download the chrome driver from [https://sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads). The correct version of chrome driver according to your google chrome version must be downloaded. More info on versions here: [https://stackoverflow.com/questions/41133391/which-chromedriver-version-is-compatible-with-which-chrome-browser-version/49618567#49618567](https://stackoverflow.com/questions/41133391/which-chromedriver-version-is-compatible-with-which-chrome-browser-version/49618567#49618567)
