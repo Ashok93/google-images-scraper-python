@@ -23,8 +23,6 @@ class ChromeScrapeImages:
         total_images = 0
         while(total_images < self.num_images):
             images_meta = self.driver.find_elements_by_xpath('//div[contains(@class,"rg_meta")]')
-            print(len(images_meta))
-            print(total_images)
             if len(images_meta) > total_images:
                 total_images = len(images_meta)
                 self.scroll_to_bottom()
