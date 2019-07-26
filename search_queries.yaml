@@ -1,0 +1,14 @@
+# folder name:
+  # - search query 1
+  # - search query 2
+  # - .....
+
+arduino:
+  - arduino 
+  - Arduino Uno
+  - Arduino cicuit board
+---
+jetson:
+  - nvidia jetson
+  - jetson TX2
+  - Nvidia Jetson Tx1

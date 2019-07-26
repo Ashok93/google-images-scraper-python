@@ -8,7 +8,7 @@
 
 2. Create a directory `chromedriver`. Put the downloaded chromedriver executable inside it.
 
-3. Modify `search_queries.py` where you have to specify the folder name and the queries for your search.
+3. Modify `search_queries.yaml` file where you have to specify the folder name and the queries for your search.
 
 3. Run `python image_scrapper.py` to download all the required images.
 

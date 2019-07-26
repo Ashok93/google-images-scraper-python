@@ -1,9 +1,8 @@
 import os
 import urllib.request
 import time
+import yaml
 from selenium import webdriver
-
-from search_queries import search_queries
 
 class ChromeScrapeImages:
     def __init__(self, search_text, folder_name, num_images=100):
@@ -48,9 +47,12 @@ class ChromeScrapeImages:
 
 if __name__ == "__main__":
     n_images = 800 # The google image search gives only maximum about 700 to 800 images
+    
+    with open('search_queries.yaml') as f:
+        docs = yaml.load_all(f)
 
-    for query_info in search_queries:
-        folder_name, search_terms = query_info
-        for search_term in search_terms:
-            scrapper = ChromeScrapeImages(search_term, folder_name, n_images)
-            scrapper.scrape_images()
+        for doc in docs:
+            for folder_name, search_terms in doc.items():
+                for search_term in search_terms:
+                    scrapper = ChromeScrapeImages(search_term, folder_name, n_images)
+                    scrapper.scrape_images()
