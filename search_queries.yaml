@@ -2,9 +2,11 @@
   # - search query 1
   # - search query 2
   # - .....
-
+cars:
+  - Sports cars
+  - classic cars
+---
 arduino:
-  - arduino 
   - Arduino Uno
   - Arduino cicuit board
 ---
