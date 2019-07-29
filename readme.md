@@ -10,5 +10,5 @@
 
 3. Modify `search_queries.yaml` file where you have to specify the folder name and the queries for your search.
 
-3. Run `python image_scrapper.py` to download all the required images.
+3. Run `python image_scrapper.py` to download all the required images. If you want to download only the thumbnails images from google search use `python image_scrapper.py --download_original_images=false`
 
